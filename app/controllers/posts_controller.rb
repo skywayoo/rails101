@@ -1,6 +1,5 @@
 class PostsController < ApplicationController
 	before_action :find_group
-	before_action :authenticate_user!
 	def new
 		@post = @group.posts.new
 	end
