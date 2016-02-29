@@ -20,6 +20,7 @@
 	}
 	span[data-typer-targets] {
  	display: inline-block;
+ 	width: 159px;
  	font-weight: bold;
 	}
 
@@ -47,6 +48,7 @@
 	font-size: 16px;
 	line-height: 28px;
     margin-bottom: 25px;
+    margin-top: 25px;
 	}
 	.icon:hover{
 			top:-5px;

@@ -15,10 +15,11 @@
 		<%= yield%>
 	</div>
 	<%= render "common/footer" %>
-
+<%= javascript_include_tag 'ws'%>
+<%= javascript_include_tag 'smoothscroll'%>
+<%= javascript_include_tag 'jquery.counterup'%>
+<%= javascript_include_tag 'jquery.typer.min'%>
+<%= javascript_include_tag 'wow'%>
+<%= javascript_include_tag 'type'%>
 </body>
-	  <script>
-       new WOW().init();
-     </script>
-     <script type="text/javascript" src="smoothscroll.js"></script>
 </html>

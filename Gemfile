@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 gem "devise", "~> 3.4.1"
+gem "rails-i18n"
+gem 'devise-i18n-views'
 gem 'simple_form'
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
